@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两列左侧自适应布局</title>
+    <style>
+    /* 两列左侧自适应布局 */
+    .x-left-wrap{float:left;width:100%;}
+    .x-left{margin-right:240px;}
+    .x-right{position:relative;float:right;width:230px;margin-left:-230px;}
+
+    /* 非关键代码 */
+    p {padding:10px;margin:0;}
+    .x-left {background-color:#e671bb;height:150px;}
+    .x-right {background-color:#1ba1e2;height:150px;}
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="x-left-wrap">
+            <div class="x-left">
+                <p>左侧自适应</p>
+            </div>
+        </div>
+        <div class="x-right">
+            <p>右侧定宽</p>
+        </div>
+    </div>
+</body>
+</html>
